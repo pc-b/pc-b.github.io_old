@@ -4,7 +4,6 @@ date: 2023-01-10T18:18:35-05:00
 draft: false
 tags: ["password cracking"]
 ---
-## Introduction
 Welcome to my first real blog post on this site. As tax season sneaks up on us, I thought it would be a great idea to start getting all my resources ready to streamline the painful experience of doing my taxes. A quick search in my gmail results in me finding my paystub in a PDF file. All right, should be nice and easy...
 
 <!--more-->
