@@ -19,16 +19,17 @@ Entering any input should be fine here, so let's enter hello. After entering hel
 ```Okay, time to return... Fingers Crossed... Jumping to 0x804932f.``` 
 
 Ok, so lets break this! Lets open gdb-gef (make sure you have gdb installed first then: [download gdb-gef](https://github.com/hugsy/gef)), and type `b main` to set a breakpoint at the main function. Then type `r` to resume.
+![image](/img/1/p2.png)
 
 We should be seeing something like this. Now what we can do is use pwntools (`pip install pwntools`) cyclic to generate a recognizable string for us. If we type `shell cyclic 64` and copy the output of that, we can type `c` again to continue. If we now paste in our string, and enter, we should see something like this:
-![image](/img/1/p2.png)
+![image](/img/1/p3.png)
 
 If we look, we can see that vuln has been stopped at `0x61616c` with value `laaa`. If we now search for this pattern, using `search pattern 0x6161616c`, we can see two offsets. 44 for little endian and 41 for big endian. Just make note of these two for now. Now we need to get the address of the win function so that we can make our exploit redirect to the memory address of win. Type `x win` and note that as well. Lets exit gdb and type `file vuln`. The output tells us that vuln is an LSB executable and LSB corresponds to little endian, so vuln is in little endian. What is an endian you might ask? Well, endian is the way that our computers read and organize data. Little endian stores data with LSB first, and big endian stores data with MSB first. Ok, now we have our offset of 44. Now it is time to write out payload!
 
 ### Payload
-![image](/img/1/p3.png)
-These 9 lines are our entire payload! Let's go over what each line does.
 
+These 9 lines are our entire payload! Let's go over what each line does.
+![output](/img/1/p4.png)
 1. `from pwn import *` — we import pwntools.
 2. `payload = b'A'*44` — we make a variable: payload that contains the bytes of 44 A's.
 3. `payload += p32(0x80491f6)` — we add the memory address of win, converted to little endian, to our payload.
@@ -40,7 +41,7 @@ These 9 lines are our entire payload! Let's go over what each line does.
 9. `connection.close()` — close our connection.
 
 Alright, lets run this now! Going back to our terminal, we can type `python3 payload.py`:
-![output](/img/1/p4.png)
+
 
 Looking at our output, clearly everything worked smoothly. If we look, we can see that the program says time to jump with the memory address of `0x80491f6`. If we remember earlier, this is the memory address of win, which prints our flag!
 
