@@ -1,0 +1,56 @@
+baseURL = "https://pc-b.github.io"
+languageCode = "en-us"
+theme = "poison"
+paginate = 5
+pluralizelisttitles = false
+
+[params]
+    brand = "pcb"                    # name of your site - appears in the sidebar
+    # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
+    description = "blog to showcase my learning :D"
+    dark_mode = true                    # optional - defaults to false
+
+    # MENU PLACEHOLDER
+    # Menu dict keys:
+        # Name:         The name to display on the menu.
+        # URL:          The directory relative to the content directory.
+        # HasChildren:  If the directory's files should be listed.  Default is true.
+        # Limit:        If the files should be listed, how many should be shown.
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
+
+    # Links to your socials.  Delete any you don't need/use. 
+    github_url = "https://github.com/pc-b"
+    twitter_url = "https://twitter.com/pcbxm"
+
+    # Hex colors for your sidebar.
+    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_img_border_color = "#515151"    # default is #515151
+    sidebar_p_color = "#909090"             # default is #909090
+    sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_a_color = "#FFF"                # default is #FFF
+    sidebar_socials_color = "#FFF"          # default is #FFF
+    moon_sun_color = "#FFF"                 # default is #FFF
+    moon_sun_background_color = "#515151"   # default is #515151
+
+    # Hex colors for your content in light mode.
+    text_color = "#222"             # default is #222
+    content_bg_color = "#FAF9F6"    # default is #FAF9F6
+    post_title_color = "#303030"    # default is #303030
+    list_color = "#5a5a5a"          # default is #5a5a5a
+    link_color = "#268bd2"          # default is #268bd2
+    date_color = "#515151"          # default is #515151
+
+    # Hex colors for your content in dark mode
+    text_color_dark = "#eee"            # default is #eee
+    content_bg_color_dark = "#121212"   # default is #121212
+    post_title_color_dark = "#DBE2E9"   # default is #DBE2E9
+    list_color_dark = "#9d9d9d"         # default is #9d9d9d
+    link_color_dark = "#268bd2"         # default is #268bd2
+    date_color_dark = "#9a9a9a"         # default is #9a9a9a
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'

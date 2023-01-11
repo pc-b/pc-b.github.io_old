@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pc-b.github.io/</loc>
+    <lastmod>2023-01-10T18:18:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/posts/cracking-passwords-with-jtr/</loc>
+    <lastmod>2023-01-10T18:18:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/tags/password-cracking/</loc>
+    <lastmod>2023-01-10T18:18:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/posts/</loc>
+    <lastmod>2023-01-10T18:18:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/tags/</loc>
+    <lastmod>2023-01-10T18:18:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/tags/binary-exploitation/</loc>
+    <lastmod>2023-01-10T17:36:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/posts/buffer-overflows-1/</loc>
+    <lastmod>2023-01-10T17:36:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/tags/reverse-engineering/</loc>
+    <lastmod>2023-01-10T17:36:35-05:00</lastmod>
+  </url><url>
+    <loc>https://pc-b.github.io/series/</loc>
+  </url>
+</urlset>

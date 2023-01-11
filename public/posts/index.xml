@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>https://pc-b.github.io/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jan 2023 18:18:35 -0500</lastBuildDate><atom:link href="https://pc-b.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cracking Password Protected PDF Files with John The Ripper</title>
+      <link>https://pc-b.github.io/posts/cracking-passwords-with-jtr/</link>
+      <pubDate>Tue, 10 Jan 2023 18:18:35 -0500</pubDate>
+      
+      <guid>https://pc-b.github.io/posts/cracking-passwords-with-jtr/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Welcome to my first real blog post on this site. As tax season sneaks up on us, I thought it would be a great idea to start getting all my resources ready to streamline the painful experience of doing my taxes. A quick search in my gmail results in me finding my paystub in a PDF file. All right, should be nice and easy&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Controlling Return Addresses with Buffer Overflows</title>
+      <link>https://pc-b.github.io/posts/buffer-overflows-1/</link>
+      <pubDate>Tue, 10 Jan 2023 17:36:35 -0500</pubDate>
+      
+      <guid>https://pc-b.github.io/posts/buffer-overflows-1/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;When I was younger, I was always fascinated with the idea of being able to break things digitally. However, I always believed that I was not smart enough to pursue this. In 2022, I have decided to start learning reverse engineering again! Starting out, I have started the Modern Binary Exploitation crackme files, and have been doing the picoCTF training ones as well. In this article I will cover picoCTF buffer-overflow1!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
