@@ -1,6 +1,6 @@
 ---
 title: "Controlling Return Addresses with Buffer Overflows"
-date: 2023-01-10T17:36:35-05:00
+date: 2023-01-11T17:36:35-05:00
 draft: false
 tags: ["binary exploitation","reverse engineering"]
 ---
