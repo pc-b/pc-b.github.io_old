@@ -12,7 +12,7 @@ When I was younger, I was always fascinated with the idea of being able to break
 Firstly, lets create a new directory called `bufferoverflow1` or whatever you would like to call it, then cd into that directory and wget both the vuln file and vuln.c file. Opening vuln.c with nano shows this:
 ![image](/img/1/p1.png)
 
-It looks like buf is a character array with a size of 64 bytes. We also have a function called win, but win is never called... So how do we go about calling win? Well, firstly lets run vuln to see how it works. Mark it as executable with `chmod +x vuln` and then type `./vuln`
+It looks like buf is a character buffer with a size of 64 bytes. We also have a function called win, but win is never called... So how do we go about calling win? Well, firstly lets run vuln to see how it works. Mark it as executable with `chmod +x vuln` and then type `./vuln`
 Entering any input should be fine here, so let's enter hello. After entering hello, we get the output:
 
 ```Okay, time to return... Fingers Crossed... Jumping to 0x804932f.``` 
