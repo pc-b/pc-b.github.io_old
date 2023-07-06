@@ -4,7 +4,7 @@ date: 2023-01-11T17:36:35-05:00
 draft: false
 tags: ["binary exploitation","reverse engineering"]
 ---
-When I was younger, I was always fascinated with the idea of being able to break things digitally. However, I always believed that I was not smart enough to pursue this. In 2022, I have decided to start learning reverse engineering again! Starting out, I have started the Modern Binary Exploitation crackme files, and have been doing the picoCTF training ones as well. In this article I will cover picoCTF buffer-overflow1!
+1When I was younger, I was always fascinated with the idea of being able to break things digitally. However, I always believed that I was not smart enough to pursue this. In 2022, I have decided to start learning reverse engineering again! Starting out, I have started the Modern Binary Exploitation crackme files, and have been doing the picoCTF training ones as well. In this article I will cover picoCTF buffer-overflow1!
 
 <!--more-->
 
